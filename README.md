@@ -13,7 +13,7 @@
 ## 使用说明
 在使用前，请修改 `config.py` 文件以适配您的环境。
 
-运行��下命令：
+运行一下命令：
 ```bash
 python3 aisbench_test.py --input_len 131066 --output_len 1 --data_num 64 --concurrency 2 --request_rate 0 --dataset_type prefix_cache --repeat_rate 99% --prefix_test --length_mean 65536 --length_std 32768 --length_min 4096 --length_max 131066
 ```
